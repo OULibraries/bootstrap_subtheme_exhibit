@@ -133,9 +133,12 @@
 
                 <div class="col-md-12">
 
-                    <a href="http://129.15.14.238/plan4future/">
+                    <?php if ($page['banner']): ?>
+						<div id="banner" class="banner"><div class="section">
+    				<?php print render($page['banner']); ?>
+    					</div></div> <!--- /.section  /#banner -->
+					<?php endif; ?>
 
-                        <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/bannerimg.jpg" class="img-responsive" alt="Logo" /></a>
 
                 </div>
             
