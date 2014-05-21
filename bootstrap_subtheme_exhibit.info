@@ -1,4 +1,4 @@
-name = Exhibit Sub Theme
+name = Current Exhibit Sub Theme
 description = Ou Libraries sub theme for the current exhibit site
 core = 7.x
 base theme = bootstrap_subtheme_OULib
