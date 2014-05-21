@@ -1,0 +1,214 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+.white {
+	color:#ffffff;	
+}
+
+html,body{
+    height: 100%;
+	background-color:#cccccc;
+}
+
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+
+#body{
+    padding-bottom: 200px;    /* height of footer */
+}
+
+.footer{
+    min-height: 170px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+}
+
+.navbar-toggle, navbar-toggle:hover {
+
+  background-color: #585859;
+  border-color: #31347B;
+ }
+
+.header1{
+    padding: 0 0 0 0;
+	background-color:#cccccc;
+
+}
+
+ul.menu li a.home {
+	color:#e7e7e7;
+}
+
+
+.topmargin {
+	margin-top:-10px;
+}
+
+.whitebg {
+	background-color:#ffffff;	
+}
+
+.navbar {
+	border-radius:0px;	
+	background-color:#e2e2e2;
+}
+
+.node h2 a {
+	color:#770909;	
+	font-size:18px;
+	font-weight:bold;
+}
+
+h2.block-title {
+	Font-size:18px;	
+	font-weight:bold;
+}
+
+div.field-name-field-tags, div.library-experience h2 a {
+	display:none;	
+}
+
+div.views-row {
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	border-radius:3px;	
+	padding:0px;
+		
+}
+
+
+div.view-blog div.views-row, div.view-frontpage div.views-row {
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	border-radius:3px;	
+	padding:10px;
+		
+}
+
+div.view-construction-updates div.views-row, div.view-campus-research-blog div.views-row, div.view-professional-development-blog div.views-row, div.view-library-experience-blog div.views-row, div.view-special-collections-blog div.views-row, div.view-scholarly-communications-blog div.views-row{
+	padding:10px;
+}
+
+div.view-blog div.field-type-text-with-summary, div.view-construction-updates div.field-type-text-with-summary, div.view-campus-research-blog div.field-type-text-with-summary, div.view-professional-development-blog div.field-type-text-with-summary, div.view-library-experience-blog div.field-type-text-with-summary, div.view-special-collections-blog div.field-type-text-with-summary, div.view-scholarly-communications-blog div.field-type-text-with-summary{
+	float:left;	
+	width:70%;
+}
+
+div.view-blog div.field-name-field-blog-image, div.view-construction-updates div.field-name-field-blog-image, div.view-campus-research-blog div.field-name-field-blog-image, div.view-professional-development-blog div.field-name-field-blog-image, div.view-library-experience-blog div.field-name-field-blog-image, div.view-special-collections-blog div.field-name-field-blog-image, div.view-scholarly-communications-blog div.field-name-field-blog-image{
+	float:left;	
+	margin-left:5%;
+	width:20%;
+}
+
+div.view-blog div.field-name-field-blog-image img, div.view-construction-updates div.field-name-field-blog-image img, div.view-campus-research-blog div.field-name-field-blog-image img, div.view-professional-development-blog div.field-name-field-blog-image img, div.view-library-experience-blog div.field-name-field-blog-image img, div.view-special-collections-blog div.field-name-field-blog-image img, div.view-scholarly-communications-blog div.field-name-field-blog-image img{
+	max-width:150px;
+	height:auto;
+	margin-top:-70px;
+	padding:5px;
+	border:1px solid #cccccc;
+}
+
+div.field-name-field-blog-image {
+	float:right;	
+}
+
+li.node-readmore {
+	display:block;
+	clear:both;
+	margin-top:18px;
+	padding:9px;
+	background-image:url(../img/readmore.jpg);
+	background-repeat:no-repeat;
+
+}
+li.node-readmore a {
+	color:#ffffff;
+	margin-left:8px;	
+}
+
+
+.menu_indent {
+	margin-left:15px;
+	margin-bottom:20px;
+	margin-top:20px;	
+}
+
+div.field-type-text-with-summary {
+	float:left;	
+}
+
+div.field-name-field-blog-image {
+	float:left;	
+}
+
+div.node-section-beige {
+	background-color:#e7ddb8;	
+	padding:20px;
+}
+
+div.node-section-olive {
+	background-color:#cfdfb1;	
+	padding:20px;
+}
+
+div.node-section-crimson {
+	background-color:#d27d7d;	
+	padding:20px;
+}
+
+h1 {
+	font-size:28px;
+	font-weight:bold;
+	margin-top:-10px;
+	margin-bottom:20px;
+}
+
+h2 {
+	font-size:22px;	
+}
+
+.content a {
+	color:#900;	
+}
+
+.margin-right {
+	margin-right:30px;
+}
+
+.margin-left {
+	margin-left:30px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+div.view-photo-gallery2  img {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.photogallery-label {
+	Margin:20px 0px 20px 0px;
+	Border-top:solid 1px #cccccc;
+	border-bottom:solid 1px #cccccc;
+	padding:20px 0px 20px 0px;
+}
