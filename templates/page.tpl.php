@@ -117,11 +117,26 @@
 
             <div class="row">
 
-                <div class="col-md-12">
+                <div class="col-md-4">
 
                     <a href="http://129.15.14.238/plan4future/">
 
                         <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/logo_banner.jpg" class="img-responsive" alt="Logo" /></a>
+
+                </div>
+                
+                <div class="col-md-8">
+
+                   <div class="col-md-12">
+
+                    <?php if ($page['banner']): ?>
+						<div id="banner" class="banner"><div class="section">
+    				<?php print render($page['banner']); ?>
+    					</div></div> <!--- /.section  /#banner -->
+					<?php endif; ?>
+
+
+                </div>
 
                 </div>
             
@@ -133,9 +148,9 @@
 
                 <div class="col-md-12">
 
-                    <?php if ($page['banner']): ?>
-						<div id="banner" class="banner"><div class="section">
-    				<?php print render($page['banner']); ?>
+                    <?php if ($page['slideshow']): ?>
+						<div id="slideshow" class="slideshow"><div class="section">
+    				<?php print render($page['slideshow']); ?>
     					</div></div> <!--- /.section  /#banner -->
 					<?php endif; ?>
 
