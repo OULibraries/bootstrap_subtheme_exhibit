@@ -117,7 +117,7 @@
 
             <div class="row">
 
-                <div class="col-md-4">
+                <div class="col-md-6 logo">
 
                     <a href="http://129.15.14.238/plan4future/">
 
@@ -125,18 +125,13 @@
 
                 </div>
                 
-                <div class="col-md-8">
-
-                   <div class="col-md-12">
+                <div class="col-md-6">
 
                     <?php if ($page['banner']): ?>
 						<div id="banner" class="banner"><div class="section">
     				<?php print render($page['banner']); ?>
     					</div></div> <!--- /.section  /#banner -->
 					<?php endif; ?>
-
-
-                </div>
 
                 </div>
             
