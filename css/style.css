@@ -29,6 +29,14 @@ html,body{
     bottom: 0; 
 }
 
+.logo {
+		
+}
+
+#banner h2.block-title {
+	display:none;
+}	
+
 .navbar-toggle, navbar-toggle:hover {
 
   background-color: #585859;
